@@ -17,4 +17,4 @@ jobs:
         
       - name: 🔵 Build Test Step 🔵
         run: |
-          xcodebuild test -project ./GithubActionTest/GithubActionTest.xcodeproj -scheme GithubActionTest -destination "platform=iOS Simulator,name=iPhone 13 Pro,OS=15.0"
+          xcodebuild test -project ./GithubActionTest/GithubActionTest.xcodeproj -scheme GithubActionTest -destination "platform=iOS Simulator,name=iPhone 13 Pro,OS=latest"
